@@ -27,7 +27,7 @@ Our *Agri-400K* consists of:
 - [Agricultural pests and diseases feature alignment data](https://huggingface.co/datasets/Agri-LLaVA-Anonymous/Agricultural_pests_and_diseases_feature_alignment_data)
 - [Agricultural pests and diseases instruction-tuning data](https://huggingface.co/datasets/Agri-LLaVA-Anonymous/Agricultural_pests_and_diseases_instruction_tuning_data)
 
-### - Testing data
+### - Evaluation data
 
 - [Agri-LLaVA-Chatbot-Bench](https://huggingface.co/datasets/Agri-LLaVA-Anonymous/Agri_LLaVA_Chatbot_Bench)
 - [Agri-LLaVA-VQA-Bench](https://huggingface.co/datasets/Agri-LLaVA-Anonymous/Agri_LLaVA_VQA_Bench)
