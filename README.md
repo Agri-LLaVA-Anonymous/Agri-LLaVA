@@ -77,7 +77,7 @@ Please download the Agri-LLaVA-Chatbot-Bench data for evaluating from [here](htt
 1. Generate Agri-LLaVA responses on Agri-LLaVA-Chatbot-Bench.
 
 ```Shell
-python model_vqa.py \
+python agri_llava/eval/model_vqa.py \
     --model-path /path/to/model_checkpoint \
     --question-file \
     /path/to/agri_llava_chatbot_question.jsonl \
@@ -122,7 +122,7 @@ We use the same scripts to adapt Agri-LLaVA to downstream tasks:
 1. Generate Agri-LLaVA responses on Agri-LLaVA-VQA-Bench.
 
 ```Shell
-python model_vqa.py \
+python agri_llava/eval/model_vqa.py \
     --model-path /path/to/model_checkpoint \
     --question-file \
     /path/to/agri_llava_vqa_test_question.jsonl \
@@ -135,7 +135,7 @@ python model_vqa.py \
 2. Evaluate the generated responses.
 
 ```Shell
-python llava/eval/run_eval.py \
+python agri_llava/eval/run_eval.py \
     --gt /path/to/agri_llava_vqa_test_answer.json \
     --pred /path/to/agri_llava_vqa_answer_our.jsonl
 ```
