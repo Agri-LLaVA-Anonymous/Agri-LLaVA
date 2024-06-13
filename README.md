@@ -47,7 +47,7 @@ Our *Agri-400K* consists of:
 
 Please download the agricultural pests and diseases feature alignment data for pre-training from [here](https://huggingface.co/datasets/Agri-LLaVA-Anonymous/Agricultural_pests_and_diseases_feature_alignment_data)
 
-You can use the script to pre-train: [`pretrain.sh`](scripts\pretrain.sh).
+You can use the script to pre-train: [`pretrain.sh`](scripts/pretrain.sh).
 
 ### - Stage 2: Agricultural End-to-End Instruction-tuning.
 
@@ -61,8 +61,8 @@ You can use the script to pre-train: [`pretrain.sh`](scripts\pretrain.sh).
 Please download the agricultural pests and diseases instruction-tuning data for fine-tuning from [here](https://huggingface.co/datasets/Agri-LLaVA-Anonymous/Agricultural_pests_and_diseases_instruction_tuning_data)
 
 You can use the following scripts to fine-tune: 
-- Full fine-tune: [`finetune.sh`](scripts\finetune.sh).
-- Lora fine-tune: [`finetune_lora.sh`](scripts\finetune_lora.sh).
+- Full fine-tune: [`finetune.sh`](scripts/finetune.sh).
+- Lora fine-tune: [`finetune_lora.sh`](scripts/finetune_lora.sh).
 
 ## Evaluation
 
@@ -114,8 +114,8 @@ Please download the Agri-LLaVA-VQA-Bench data for evaluating from [here](https:/
 #### - Fine-tuning on the VQA training data
 
 We use the same scripts to adapt Agri-LLaVA to downstream tasks:
-- Full fine-tune: [`finetune.sh`](scripts\finetune.sh).
-- Lora fine-tune: [`finetune_lora.sh`](scripts\finetune_lora.sh).
+- Full fine-tune: [`finetune.sh`](scripts/finetune.sh).
+- Lora fine-tune: [`finetune_lora.sh`](scripts/finetune_lora.sh).
 
 #### - Evaluating on the VQA testing data
 
